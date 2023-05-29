@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Los Tres Parientes - Contact Form</title>
+  <link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+<body>
+  <div class="container">
+    <div class="menu">
+      <a href="inicio.html">Home</a>
+      <a href="quienes_somos.html">About Us</a>
+      <a href="productos.html">Products</a>
+      <a href="preguntas.html">FAQs</a>
+      <a href="formulario.html">Contact</a>
+    </div>
+    <h1>Los Tres Parientes</h1>
+    <div class="content">
+      <h2>Contact Form</h2>
+      <form>
+        <label for="nombre">Full Name:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="edad">Age:</label>
+        <input type="date" id="edad" name="edad" required>
+        
+        <label for="correo">Email Address:</label>
+        <input type="email" id="correo" name="correo" required>
+        
+        <label for="telefono">Phone Number:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+        
+        <label for="compra">Have you purchased from us before?</label>
+        <select id="compra" name="compra">
+          <option value="si">Yes</option>
+          <option value="no">No</option>
+        </select>
+        
+        <label for="dudas">Write your questions or suggestions:</label>
+        <textarea id="dudas" name="dudas" rows="4"></textarea>
+        
+        <label for="recomendacion">Would you recommend us to someone else?</label>
+        <input type="text" id="recomendacion" name="recomendacion">
+        
+        <label for="mejora">What should we improve in our company?</label>
+        <textarea id="mejora" name="mejora" rows="4"></textarea>
+        
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <footer class="footer">
+      <a href="formulario.html"><img src="espana.jpg" alt="Home"></a>
+      <a href="formularioeng.html"><img src="eu.jpg" alt="Home (English)"></a>
+    </footer>
+  </div>
+</body>
+</html>
